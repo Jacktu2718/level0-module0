@@ -10,11 +10,11 @@ if __name__ =='__main__':
     # name = simpledialog.askstring(title='Greeter', prompt="What is your name?")
     name = simpledialog.askstring(title='Greeter', prompt="What is your name?")
     # Show a message box with your message using the .showinfo() method
-    messagebox.showinfo(title='Greeter', message='How are you?')
+    messagebox.showinfo(title='Greeter', message='How are you, '+name+'?')
     # Print your message to the console using the print() function
     print('How do you feel?')
     # Show an error message using messagebox.showerror()
-    messagebox.showerror()
+    messagebox.showerror('error',message='there was an error '+name)
     # Run the window's .mainloop() method
     window.mainloop()
-    pass
+

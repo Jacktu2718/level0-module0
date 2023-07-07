@@ -58,7 +58,7 @@ if __name__ == '__main__':
     #    c. Rename the image something short (e.g. cat.gif)
     #    d. Save the image to your computer's desktop
     #    e. Drag and drop the image into this python package
-    
+    set_background('bigEyedCat.gif')
     # 2. Call the set_background() function with your variable inside of the parenthesis
     #    for example, set_background(bg_image)
 

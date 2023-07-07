@@ -30,7 +30,7 @@ if __name__ == '__main__':
     jack.speed(0)
     # Use a for loop to repeat all of the code below ONE time (we will change
     # this later)
-    for i in range(1):
+    for i in range(25):
 
 
 
@@ -46,6 +46,7 @@ if __name__ == '__main__':
         # TURN LEFT      Turn the turtle 40 degrees to the LEFT. (Negative
         #               numbers will turn the turtle counter-clockwise.)
         jack.left(40)
+        jack.pencolor('yellow')
         # DRAW FLAME     Move the turtle the distance in the variable flameSize
         jack.forward(flameSize)
         #                Turn the turtle to the right 170 degrees
@@ -54,10 +55,11 @@ if __name__ == '__main__':
         jack.forward(flameSize)
         #  TURN RIGHT    Turn the turtle 62 degrees to the right
         jack.right(62)
+        jack.pencolor('black')
         #  DRAW          Move the turtle the distance in the variable baseSize
-        jack.(flameSize)
+        jack.forward(baseSize)
         # Call the turtle .end_fill() method
-        jack.end_fill
+        jack.end_fill()
     # Hide your turtle so you can see the pattern.
     jack.hideturtle()
     # TEST   Run the program. Check that your shape is the same as the first

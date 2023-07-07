@@ -8,7 +8,7 @@ if __name__ == '__main__':
     window.withdraw()
     # Put this sentence in a pop-up message box:
     # "If you find yourself having to cross a piranha-infested river, here's how to do it..."
-    messagebox.showinfo("If you find yourself having to cross a piranha-infested river, here's how to do it...")
+    messagebox.showinfo(message="If you find yourself having to cross a piranha-infested river, here's how to do it...")
     # Get the player to enter an adjective
     adjective = simpledialog.askstring(prompt="adjective",title="adjective")
     # Get the player to enter a type of liquid
